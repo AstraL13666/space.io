@@ -1,5 +1,5 @@
 
-# TG-bot: [Space.io](https://t.me/space_io_bot) 
+# TG-bot: Space.io
 
 Bot on the theme of space, implemented on aiogram (3.x)
 ###### This's a graduation project in Skillbox
