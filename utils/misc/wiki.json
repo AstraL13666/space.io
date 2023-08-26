@@ -1,0 +1,350 @@
+{
+  "ru": {
+    "Азимут": {
+      "desc": "угловое расстояние по математическому горизонту от точки юга (астрономический) или севера (геодезический) до вертикала светила",
+      "pic": "https://moregeo.com/public/upload_images/pic/Obshaya_geografiya/Orientirovanie_po_azimutu.jpg"
+    },
+    "Альбедо": {
+      "desc": "величина показывающая способность тела отражать падающий на него свет. Альбедо совершенно черного тела равно нулю, альбедо совершенно белого тела равно единице",
+      "pic": "https://www.color-meanings.com/wp-content/uploads/absorption-heat-darker-colors-reflection-lighter.png"
+    },
+    "Апогей": {
+      "desc": "наиболее удаленная от Земли точка орбиты обращающегося вокруг нее тела. Расстояние от апогея до центра Земли называется апогейным расстоянием",
+      "pic": "http://i.mycdn.me/i?r=AzFIxPtkV78jcmdRfpoIOyaJYsS_jGk0mSAY8U0jYAfP7jO7EuABt8t6j6ROsg0SwU4"
+    },
+    "Аргумент перигелия": {
+      "desc": "угол в плоскости орбиты небесного тела, образованный направлениями на восходящий узел и точку перигелия орбиты. Отсчитывается против часовой стрелки",
+      "pic": "http://galspace.spb.ru/index407.file/7.jpg"
+    },
+    "Астероид": {
+      "desc": "небольшое планетоподобное тело неправильной формы, движущееся по орбите вокруг Солнца. Астероиды сравнительно мы по размерам, не имеют собственной атмосферы. Широко известно скопление астероидов между орбитами Марса и Юпитера, получившее название Пояс астероидов",
+      "pic": "https://fikiwiki.com/uploads/posts/2022-02/1645055166_39-fikiwiki-com-p-kartinki-asteroidi-45.jpg"
+    },
+    "Афелий": {
+      "desc": "наиболее удаленная от Солнца точка орбиты обращающегося вокруг него тела",
+      "pic": "https://obrazovaka.ru/wp-content/uploads/2022/01/perigeliy-i-afeliy-e1643956919997.png"
+    },
+    "Болид": {
+      "desc": "метеор, превосходящий по яркости Венеру",
+      "pic": "AgACAgIAAxkBAAIF3WTJixs9zqlc0NeDEGNmUlJKKqyaAALQyzEbj4dQSqIdK9xda3KfAQADAgADeQADLwQ"
+    },
+    "Большая полуось": {
+      "desc": "каждая планета вращается вокруг своей звезды не по строгому кругу, а по эллипсу. Половина наибольшего диаметра этого эллипса называется большой полуосью",
+      "pic": "https://www.centraldatacore.com/wp-content/uploads/Geminid-Meteor-Fireball-HD.jpg"
+    },
+    "Величина звездная": {
+      "desc": "число, характеризующее блеск объекта. Чем меньше звездная величина – тем больше блеск, поэтому ярчайшие объекты могут принимать отрицательные значения этого параметра. Предельно видимая невооруженным человеческим глазом звездная величина составляет: +6,5m, а такой яркий объект как Луна в полнолуние, имеет величину: -13m",
+      "pic": "https://spacegid.com/wp-content/uploads/2015/12/Zvednaya-velichina.jpg"
+    },
+    "Вертикал": {
+      "desc": "большой полукруг небесной сферы, проходящий через зенит, светило и надир",
+      "pic": "https://proza.ru/pics/2020/04/30/1954.jpg"
+    },
+    "Восход": {
+      "desc": "момент пересечения светилом горизонта, когда оно переходит из невидимой части небесной сферы в видимую.",
+      "pic": "https://krot.info/uploads/posts/2021-11/1636607843_86-krot-info-p-voskhod-nad-morem-krasivoe-foto-91.jpg"
+    },
+    "Вторая космическая скорость": {
+      "desc": "минимальная скорость, с которой должно взлетать свободно движущееся тело для того, чтобы преодолеть силы притяжения другого небесного тела и улететь навсегда. Для Земли вторая космическая скорость равна 11,2 км/сек, для Солнца 617 км/сек.",
+      "pic": "https://avatars.dzeninfra.ru/get-zen_doc/3808423/pub_5f87758217c9884cd3816f13_5f8777b0aa68813be1ed5531/scale_1200"
+    },
+    "Галилеевы спутники": {
+      "desc": "четыре крупнейших спутника Юпитера, открытые Галилеем – Ио, Европа, Ганимед и Каллисто",
+      "pic": "https://news.store.rambler.ru/img/b7c25b6543037ac0672d54dd50a4c340?img-format=auto&img-1-resize=height:710"
+    },
+    "Геоид": {
+      "desc": "поверхность земного поля тяжести, приблизительно совпадающая со средним уровнем вод Мирового океана в невозмущённом состоянии и условно продолженная под материками",
+      "pic": "http://vsegda-pomnim.com/uploads/posts/2022-04/1651020360_49-vsegda-pomnim-com-p-zemlya-bez-okeanov-i-morei-foto-68.jpg"
+    },
+    "Дождь метеорный": {
+      "desc": "метеорный поток большой интенсивности",
+      "pic": "https://cdnstatic.rg.ru/uploads/images/2022/08/02/perseids_over_a_windfarm_20548071275_9fb.jpeg"
+    },
+    "Единица астрономическая": {
+      "desc": "среднее расстояние между Землей и Солнцем",
+      "pic": "https://www.pvsm.ru/images/2022/04/26/astronomicheskii-slovarik-absolyutnaya-zvyozdnaya-velichina-adaptivnaya-optika-albedo-i-astronomicheskaya-edinica-5.jpeg"
+    },
+    "Зенит": {
+      "desc": "расположенная над головой наблюдателя точка пересечения отвесной линии с поверхностью небесной сферы",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Zenith-Nadir-Horizon-ru.svg/1200px-Zenith-Nadir-Horizon-ru.svg.png"
+    },
+    "Затмение лунное": {
+      "desc": "явление прохождения Луны через земную тень или полутень",
+      "pic": "https://astrojurnal.ru/images/shema.jpg"
+    },
+    "Затмение солнечное": {
+      "desc": "явление покрытия Луной Солнца. Бывает полным, частным и кольцеобразным. Заход – момент пересечения светилом горизонта, когда оно переходит из видимой части небесной сферы в невидимую",
+      "pic": "https://i.pinimg.com/originals/f5/fb/97/f5fb972544dd299357a6e1c1b3755066.jpg"
+    },
+    "Карликовая планета": {
+      "dist": "достаточно крупное небесно тело, которое вращается по орбите вокруг Солнца, имеет достаточную массу для того, чтобы поддерживать близкую к сферической форму под действием гравитации, не является спутником другой планеты, не может, в отличие от планет, расчистить район своей орбиты от других космических объектов",
+      "pic": "https://ciur.ru/uva/uva_ddt/DocLib19/%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%B0%D0%B7%D0%B8%D0%B5%D0%B2%D0%B0%20%D0%9E%D0%92/%D0%90%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0/%D0%9A%D0%B0%D1%80%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8B/%D0%BA%D0%B0%D1%80%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8B.png"
+    },
+    "Класс спектральный": {
+      "dist": "характеристика спектра и поверхностной температуры звезды",
+      "pic": "https://news4auto.ru/wp-content/uploads/2022/07/spektralnye-klassy-zvezd.webp"
+    },
+    "Комета": {
+      "dist": "тело малой плотности, состоящее из газа и пыли и обращающееся вокруг Солнца",
+      "pic": "AgACAgIAAxkBAAIF3mTJi3VvCP20hA1vYJ6YNQg5BJXEAALRyzEbj4dQSo_ROeEX_7jWAQADAgADeQADLwQ"
+    },
+    "Конфигурация планет": {
+      "dist": "взаимные расположения планет и Солнца на небесной сфере земного наблюдателя",
+      "pic": "https://prezentacii.org/upload/cloud/18/08/70394/images/screen5.jpg"
+    },
+    "Кориолиса сила": {
+      "dist": "одна из сил инерции, проявляющаяся во вращающейся системе отсчета, при движении в направлении под углом к оси вращения. То есть чем дальше объект от центра вращения, тем быстрее у него касательная скорость, и наоборот, чем ближе к центру – тем такая скорость ниже",
+      "pic": "https://i2.wp.com/online.mephi.ru/courses/physics/osnovi_mehaniki/external/images/8/8.4/r2.png"
+    },
+    "Криолитозона": {
+      "dist": "то, что принято называть “вечной мерзлотой”, т.е. верхний слой планетной коры, характеризующийся отрицательной температурой пород и почв и наличием или возможностью существования подземных льдов.",
+      "pic": "https://avatars.dzeninfra.ru/get-zen_doc/1348874/pub_60bdaee8931ee526e146a0d4_60bdb0ed931ee526e14a9f68/scale_1200"
+    },
+    "Лимб": {
+      "desc": "видимый край диска светила в проекции на небесную сферу",
+      "pic": "https://scfh.ru/files/medialibrary/03f/03f40d522272fbd0224c545e7d59bc37.jpg"
+    },
+    "Метеор": {
+      "desc": "световое явление в атмосфере Земли при попадании и сгорании в ней метеороида",
+      "pic": "https://gagaru.club/uploads/posts/2023-02/thumbs/1676141260_gagaru-club-p-ochen-yarkii-meteor-instagram-18.jpg"
+    },
+    "Метеорит": {
+      "desc": "метеороид, упавший на поверхность Земли или другой планеты",
+      "pic": "https://oir.mobi/uploads/posts/2021-03/thumbs/1616758724_40-p-meteorit-krasivo-40.jpg"
+    },
+    "Метеороид": {
+      "desc": "твердое тело, движущееся в межпланетном пространстве, размером меньше астероида",
+      "pic": "https://www.amic.ru/images/upload/images_09-2019/images/meteor-strikes-2.jpg"
+    },
+    "Надир": {
+      "desc": "расположенная под ногами наблюдателя точка пересечения отвесной линии с поверхностью небесной сферы",
+      "pic": "http://cdn01.ru/files/users/images/44/fe/44fecaf52b56cbb032302df6381489a3.jpg"
+    },
+    "Новолуние": {
+      "desc": "фаза Луны, при которой ее эклиптическая долгота равна эклиптической долготе Солнца",
+      "pic": "https://ic.pics.livejournal.com/salenta/36499300/394168/394168_original.jpg"
+    },
+    "Ночь астрономическая": {
+      "desc": "период суток между астрономическими сумерками, когда Солнце погружено под горизонт ниже 18 градусов",
+      "pic": "AgACAgIAAxkBAAIF2WTJidS7dmo9BRT9UbWUxCURwZsNAALIyzEbj4dQSp00NortWphDAQADAgADeQADLwQ"
+    },
+    "Ось мира": {
+      "desc": "прямая, вокруг которой происходит кажущееся вращение небесной сферы",
+      "pic": "https://cf.ppt-online.org/files1/slide/h/h619YvHLprRPUcF8DlzZ3iy7VuEfMgwkqTnjAa5ex4/slide-1.jpg"
+    },
+    "Парад планет": {
+      "desc": "астрономическое явление, при котором несколько планет Солнечной системы оказывается по одну сторону от Солнца в небольшом секторе, как бы выстроившись в одну линию и при наблюдении с Земли, видны довольно близко друг к другу на небесной сфере",
+      "pic": "https://poisknews.ru/wp-content/uploads/2020/07/shutterstock_1009219852.jpg"
+    },
+    "Парсек": {
+      "desc": "Единица длины, часто используемая в астрономии. 1 пк = 3,26 световых лет = 206 265 а.е. = 3,086 x 10^16 м",
+      "pic": "https://subject.com.ua/astronomy/encyclopedia/encyclopedia.files/image028.jpg"
+    },
+    "Планетоид": {
+      "desc": "не астрономический термин, но связан с астрономией. Означает «подобный планете», то есть фактически является синонимом термина «малая планета»",
+      "pic": "https://avatars.dzeninfra.ru/get-zen_doc/1916740/pub_5e4229aea19f6b22df49e648_5e52922b733a3e3e6ab79d1b/scale_1200"
+    },
+    "Планемо": {
+      "desc": "космический объект планетной массы. Не обязательно планета – возможно это карликовая, блуждающая планета или спутник планетарной массы",
+      "pic": "https://avatars.dzeninfra.ru/get-zen_doc/1538903/pub_5e4ea1c107349e4ee436e9c2_5e4fe674e1f3c67ff23922cf/scale_1200"
+    },
+    "Рефракция": {
+      "desc": "явление преломления света на границе двух сред с разной оптической плотностью",
+      "pic": "http://www.astro-cabinet.ru/images/slidk/1-23.png"
+    },
+    "Сарос": {
+      "desc": "цикл затмений, повторяющийся с интервалом 6585 суток (18 лет и 10 (11) дней). В саросе содержится 41 солнечное и 29 теневых лунных затмений",
+      "pic": "https://sun9-71.userapi.com/impf/c840721/v840721091/3a8ce/iSLJikdo_JQ.jpg?size=1024x679&quality=96&sign=b85ca1f173ecbe284402d911e505aa3e&c_uniq_tag=wQcyhn7P3tPzKKiYFKXjePh3xu-OO2b_Douy70TbRc0&type=album"
+    },
+    "Терминатор": {
+      "desc": "линия, отделяющая темную часть видимого диска планеты от светлой",
+      "pic": "http://realsky.ru/images/stories/Article/moon/moon-illusion/LunarX.jpg"
+    },
+    "Узел": {
+      "desc": "точка пересечения орбиты небесного тела с эклиптикой. Различают восходящий и нисходящий узлы",
+      "pic": "https://otvet.imgsmail.ru/download/u_543e21086ca8f757f28ece523c83737c_800.jpg"
+    },
+    "Фуко маятник": {
+      "desc": "маятник, используемый для экспериментальной демонстрации суточного вращения Земли. Представляет собой груз подвешенный на длинном отвесе",
+      "pic": "https://avatars.dzeninfra.ru/get-zen_doc/1804213/pub_5ce9964ed2421400b4587e86_5ce996a47b478b00b277c04c/scale_1200"
+    },
+    "Элонгация": {
+      "desc": "угловое расстояние планеты от Солнца. Различают восточную и западную элонгацию",
+      "pic": "https://neane.ru/rus/7/write/0324/elongation.jpg"
+    },
+    "Эферемида": {
+      "desc": "таблица, в которой приведены вычисленные координаты небесного тела для различных моментов времени",
+      "pic": "https://starcatalog.ru/images/2019/01/eferemida-1.jpg"
+    }
+  },
+  "en": {
+    "Azimuth": {
+      "desc": "the angular distance along the mathematical horizon from the point of the south (astronomical) or north (geodesic) to the vertical of the luminary",
+      "pic": "AgACAgIAAxkBAAIF1mTJiTuYxKpVwXU1WyTyL7UxNFTuAALByzEbj4dQStjg8tBz-JY_AQADAgADeQADLwQ"
+    },
+    "Albedo": {
+      "desc": "a value indicating the ability of a body to reflect light falling on it. The albedo of a completely black body is zero, the albedo of a completely white body is one",
+      "pic": "AgACAgIAAxkBAAIF1GTJiITRvZ8z1k7xEX9sT0ovn7c4AAK3yzEbj4dQSl8YyC3vSI-qAQADAgADeQADLwQ"
+    },
+    "Apogee": {
+      "desc": "the point farthest from the Earth in the orbit of a body orbiting around it. The distance from the apogee to the center of the Earth is called the apogee distance",
+      "pic": "AgACAgIAAxkBAAIF1WTJiOjrafLhn0SjfTTZWQEjOg4oAALAyzEbj4dQStyyZwKKmRvnAQADAgADeAADLwQ"
+    },
+    "Asteroid": {
+      "desc": "a small planet-like body of irregular shape, moving in orbit around the Sun. Asteroids are relatively small in size, do not have their own atmosphere. The asteroid cluster between the orbits of Mars and Jupiter, called the Asteroid Belt, is widely known",
+      "pic": "AgACAgIAAxkBAAIF12TJiWi0c5iMWjLdxNrs2kx4Ho3vAALEyzEbj4dQSiPUMoMF7dHeAQADAgADeQADLwQ"
+    },
+    "Aphelion": {
+      "desc": "the point furthest from the Sun in the orbit of a body orbiting around it",
+      "pic": "AgACAgIAAxkBAAIF2GTJibEnH6mb3r2VcyefnbFfMQsUAALHyzEbj4dQSlSods9OcGzkAQADAgADeAADLwQ"
+    },
+    "Astronomical night": {
+      "desc": "the period of the day between astronomical twilight, when the Sun is submerged below the horizon below 18 degrees",
+      "pic": "AgACAgIAAxkBAAIF2WTJidS7dmo9BRT9UbWUxCURwZsNAALIyzEbj4dQSp00NortWphDAQADAgADeQADLwQ"
+    },
+    "Astronomical unit": {
+      "desc": "the average distance between the Earth and the Sun",
+      "pic": "AgACAgIAAxkBAAIF2mTJipDJYH9FO7UmOGkGsO02Dmw4AALLyzEbj4dQSho9x-XrTBnaAQADAgADeQADLwQ"
+    },
+    "Axis of the World": {
+      "desc": "a straight line around which the apparent rotation of the celestial sphere occurs",
+      "pic": "AgACAgIAAxkBAAIF3GTJivGy9mji69y6RG4VmWwAAe4NXQACzssxG4-HUEog_4pIcE_DDwEAAwIAA3kAAy8E"
+    },
+    "Bolid": {
+      "desc": "a meteor that surpasses Venus in brightness",
+      "pic": "AgACAgIAAxkBAAIF3WTJixs9zqlc0NeDEGNmUlJKKqyaAALQyzEbj4dQSqIdK9xda3KfAQADAgADeQADLwQ"
+    },
+    "Comet": {
+      "dist": "a low-density body consisting of gas and dust and orbiting the Sun",
+      "pic": "AgACAgIAAxkBAAIF3mTJi3VvCP20hA1vYJ6YNQg5BJXEAALRyzEbj4dQSo_ROeEX_7jWAQADAgADeQADLwQ"
+    },
+    "Configuration of planets": {
+      "dist": "mutual positions of the planets and the Sun on the celestial sphere of the terrestrial observer",
+      "pic": "https://prezentacii.org/upload/cloud/18/08/70394/images/screen5.jpg"
+    },
+    "Coriolis force": {
+      "dist": "one of the forces of inertia, manifested in a rotating frame of reference, when moving in a direction at an angle to the axis of rotation.",
+      "pic": "https://i2.wp.com/online.mephi.ru/courses/physics/osnovi_mehaniki/external/images/8/8.4/r2.png"
+    },
+    "Cryolithozone": {
+      "dist": "what is commonly called “permafrost”, i.e. the upper layer of the planetary crust, characterized by a negative temperature of rocks and soils and the presence or possibility of the existence of underground ice.",
+      "pic": "https://avatars.dzeninfra.ru/get-zen_doc/1348874/pub_60bdaee8931ee526e146a0d4_60bdb0ed931ee526e14a9f68/scale_1200"
+    },
+    "Dwarf planet": {
+      "dist": "a sufficiently large celestial body that orbits the Sun, has sufficient mass to maintain a close to spherical shape under the influence of gravity, is not a satellite of another planet, cannot, unlike planets, clear the area of its orbit from other space objects",
+      "pic": "https://ciur.ru/uva/uva_ddt/DocLib19/%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%B0%D0%B7%D0%B8%D0%B5%D0%B2%D0%B0%20%D0%9E%D0%92/%D0%90%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0/%D0%9A%D0%B0%D1%80%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8B/%D0%BA%D0%B0%D1%80%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8B.png"
+    },
+    "Elongation": {
+      "desc": "the angular distance of the planet from the Sun. There are eastern and western elongation",
+      "pic": "https://neane.ru/rus/7/write/0324/elongation.jpg"
+    },
+    "Ephemeris": {
+      "desc": "a table showing the calculated coordinates of a celestial body for various points in time",
+      "pic": "https://starcatalog.ru/images/2019/01/eferemida-1.jpg"
+    },
+    "Galilean satellites": {
+      "desc": "The four largest moons of Jupiter discovered by Galileo are Io, Europa, Ganymede and Callisto",
+      "pic": "https://news.store.rambler.ru/img/b7c25b6543037ac0672d54dd50a4c340?img-format=auto&img-1-resize=height:710"
+    },
+    "Geoid": {
+      "desc": "the surface of the earth's gravity field, approximately coinciding with the average level of the waters of the World Ocean in an undisturbed state and conditionally continued under the continents",
+      "pic": "http://vsegda-pomnim.com/uploads/posts/2022-04/1651020360_49-vsegda-pomnim-com-p-zemlya-bez-okeanov-i-morei-foto-68.jpg"
+    },
+    "Large semi - axis": {
+      "desc": "each planet rotates around its star not in a strict circle, but in an ellipse. Half of the largest diameter of this ellipse is called the semimajor axis",
+      "pic": "https://www.centraldatacore.com/wp-content/uploads/Geminid-Meteor-Fireball-HD.jpg"
+    },
+    "Lunar eclipse": {
+      "desc": "the phenomenon of the moon passing through the earth's shadow or penumbra",
+      "pic": "https://astrojurnal.ru/images/shema.jpg"
+    },
+    "Limbo": {
+      "desc": "the visible edge of the disk of the luminary in projection on the celestial sphere",
+      "pic": "https://scfh.ru/files/medialibrary/03f/03f40d522272fbd0224c545e7d59bc37.jpg"
+    },
+    "Meteor": {
+      "desc": "a light phenomenon in the Earth's atmosphere when a meteoroid hits and burns in it",
+      "pic": "https://gagaru.club/uploads/posts/2023-02/thumbs/1676141260_gagaru-club-p-ochen-yarkii-meteor-instagram-18.jpg"
+    },
+    "Meteorite": {
+      "desc": "a meteorite that has fallen on the surface of the Earth or another planet",
+      "pic": "https://oir.mobi/uploads/posts/2021-03/thumbs/1616758724_40-p-meteorit-krasivo-40.jpg"
+    },
+    "Meteoroid": {
+      "desc": "a solid body moving in interplanetary space, smaller than an asteroid",
+      "pic": "https://www.amic.ru/images/upload/images_09-2019/images/meteor-strikes-2.jpg"
+    },
+    "Magnitude is stellar": {
+      "desc": "a number that characterizes the brilliance of the object. The smaller the magnitude, the greater the brilliance, so the brightest objects can take negative values of this parameter. The stellar magnitude that is extremely visible to the naked human eye is: +6.5 m, and such a bright object as the Moon on a full moon has a magnitude of: -13m",
+      "pic": "https://spacegid.com/wp-content/uploads/2015/12/Zvednaya-velichina.jpg"
+    },
+    "Meteor rain": {
+      "desc": "meteor shower of high intensity",
+      "pic": "https://cdnstatic.rg.ru/uploads/images/2022/08/02/perseids_over_a_windfarm_20548071275_9fb.jpeg"
+    },
+    "Nadir": {
+      "desc": "the point of intersection of the vertical line with the surface of the celestial sphere located under the feet of the observer",
+      "pic": "http://cdn01.ru/files/users/images/44/fe/44fecaf52b56cbb032302df6381489a3.jpg"
+    },
+    "New Moon": {
+      "desc": "фаза Луны, при которой ее эклиптическая долгота равна эклиптической долготе Солнца",
+      "pic": "https://ic.pics.livejournal.com/salenta/36499300/394168/394168_original.jpg"
+    },
+    "Parsec": {
+      "desc": "A unit of length often used in astronomy. 1 pc = 3.26 light years = 206,265 au = 3,086 x 10^16 m",
+      "pic": "https://subject.com.ua/astronomy/encyclopedia/encyclopedia.files/image028.jpg"
+    },
+    "Planetoid": {
+      "desc": "not an astronomical term, but related to astronomy. It means \"similar to a planet\", that is, it is actually synonymous with the term \"minor planet\"",
+      "pic": "https://avatars.dzeninfra.ru/get-zen_doc/1916740/pub_5e4229aea19f6b22df49e648_5e52922b733a3e3e6ab79d1b/scale_1200"
+    },
+    "Planemo": {
+      "desc": "a space object of planetary mass. Not necessarily a planet – perhaps it is a dwarf, wandering planet or a satellite of planetary mass",
+      "pic": "https://avatars.dzeninfra.ru/get-zen_doc/1538903/pub_5e4ea1c107349e4ee436e9c2_5e4fe674e1f3c67ff23922cf/scale_1200"
+    },
+    "The perihelion argument": {
+      "desc": "the angle in the plane of the orbit of a celestial body formed by the directions to the ascending node and the perihelion point of the orbit. Counted counterclockwise",
+      "pic": "http://galspace.spb.ru/index407.file/7.jpg"
+    },
+    "The parade of planets": {
+      "desc": "an astronomical phenomenon in which several planets of the Solar System turn out to be on the same side of the Sun in a small sector, as if lined up in one line and, when observed from Earth, are visible quite close to each other on the celestial sphere",
+      "pic": "https://poisknews.ru/wp-content/uploads/2020/07/shutterstock_1009219852.jpg"
+    },
+    "Refraction": {
+      "desc": "the phenomenon of light refraction at the boundary of two media with different optical densities",
+      "pic": "http://www.astro-cabinet.ru/images/slidk/1-23.png"
+    },
+    "Sunrise": {
+      "desc": "the moment when the sun crosses the horizon, when it passes from the invisible part of the celestial sphere to the visible one.",
+      "pic": "https://krot.info/uploads/posts/2021-11/1636607843_86-krot-info-p-voskhod-nad-morem-krasivoe-foto-91.jpg"
+    },
+    "Solar eclipse": {
+      "desc": "the phenomenon of the Moon covering the Sun. It can be complete, private and ring-shaped. Sunset is the moment when the sun crosses the horizon, when it passes from the visible part of the celestial sphere to the invisible one",
+      "pic": "https://i.pinimg.com/originals/f5/fb/97/f5fb972544dd299357a6e1c1b3755066.jpg"
+    },
+    "Spectral class": {
+      "dist": "characterization of the spectrum and surface temperature of the star",
+      "pic": "https://news4auto.ru/wp-content/uploads/2022/07/spektralnye-klassy-zvezd.webp"
+    },
+    "Saros": {
+      "desc": "the cycle of eclipses, repeated at intervals of 6585 days (18 years and 10 (11) days). Saros contains 41 solar and 29 shadow lunar eclipses",
+      "pic": "https://sun9-71.userapi.com/impf/c840721/v840721091/3a8ce/iSLJikdo_JQ.jpg?size=1024x679&quality=96&sign=b85ca1f173ecbe284402d911e505aa3e&c_uniq_tag=wQcyhn7P3tPzKKiYFKXjePh3xu-OO2b_Douy70TbRc0&type=album"
+    },
+    "The second cosmic velocity": {
+      "desc": "the minimum speed at which a freely moving body must take off in order to overcome the gravitational forces of another celestial body and fly away forever. For the Earth, the second cosmic velocity is 11.2 km/sec, for the Sun 617 km/sec.",
+      "pic": "https://avatars.dzeninfra.ru/get-zen_doc/3808423/pub_5f87758217c9884cd3816f13_5f8777b0aa68813be1ed5531/scale_1200"
+    },
+    "Terminator": {
+      "desc": "the line separating the dark part of the visible disk of the planet from the light one",
+      "pic": "http://realsky.ru/images/stories/Article/moon/moon-illusion/LunarX.jpg"
+    },
+    "Vertical": {
+      "desc": "a large semicircle of the celestial sphere passing through the zenith, the luminary and the nadir",
+      "pic": "https://proza.ru/pics/2020/04/30/1954.jpg"
+    },
+    "Zenith": {
+      "desc": "the point of intersection of the vertical line with the surface of the celestial sphere located above the observer's head",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Zenith-Nadir-Horizon-ru.svg/1200px-Zenith-Nadir-Horizon-ru.svg.png"
+    }
+  }
+}
