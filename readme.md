@@ -1,5 +1,6 @@
 
-# TG-bot: [Space.io](https://t.me/space_io_bot) 
+# Space.io ![loguru](https://img.shields.io/badge/version-%201.1-%23757575.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
+___
 
 Bot on the theme of space, implemented on aiogram (3.x)
 ###### This's a graduation project in Skillbox
@@ -12,15 +13,12 @@ ___
 
 ###### 1) Open the file "_DiplomProject/.env_" and fill in the text
 ~~~python
-# Telegram token general-bot
+# Telegram token general-bot (token - BotFather, admin_id - you id profile in Telegram)
 token=
 admin_id=
 
-# Telegram token log-bot
+# Telegram token log-bot (BotFather)
 logger_bot=
-
-# Token translate rapid-api
-rapid_api=
 ~~~
 ###### 2) Run "main.py"
 ___
@@ -70,3 +68,15 @@ ___
 ![markdown](https://img.shields.io/badge/markdown-%23545554.svg?&style=for-the-badge&logo=markdown&logoColor=white)
 ![telegram](https://img.shields.io/badge/Telegram%20-%23545554.svg?&style=for-the-badge&logo=Telegram&logoColor=white)
 ![telegram](https://custom-icon-badges.demolab.com/badge/-Skillbox-%23545554?style=for-the-badge&logoColor=white&logo=repo)
+___
+![update](https://img.shields.io/badge/update%20-1.1-%23000000.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
+- Update file:
+  - readme.md
+    - updated description
+  - .emv
+    - updated comments
+    - extra tokens have been removed
+  - pip project
+    - extra libs have been removed
+  - _/utils/manager/_ __text.py__
+    - Update the list of teachers
