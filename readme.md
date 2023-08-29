@@ -22,6 +22,9 @@ logger_bot=
 ~~~
 ###### 2) Run "main.py"
 ___
+##### Logger - bot
+###### It is needed to send critical errors !Dependency: Token, user ID
+___
 ### Opportunities
 - Output of a picture with a description from the database
 - Output of 3 news posts (parsing)
