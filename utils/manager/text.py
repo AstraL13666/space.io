@@ -58,19 +58,21 @@ class Library:
 
             "info": (
                 f"{edit.smile.bot_name} space.io\n\n"
-                f"{edit.smile.teacher} S. Crivosheev\n"
+                f"{edit.smile.teacher} S. Crivosheev | K. Smirnov\n"
                 f"{edit.smile.student} Vladimir Kotov\n\n"
                 f"{edit.smile.purpose} Graduation project SkillBox\n\n"
                 f"{edit.smile.link} Link:\n"
                 f"TG: t.me/vlad_prin\n"
-                f"GitLab: https://gitlab.skillbox.ru/vladimir_kotov_1",
+                f"GitLab: https://gitlab.skillbox.ru/vladimir_kotov_1\n\n"
+                f"ver.: 1.1",
                 f"{edit.smile.bot_name} space.io\n\n"
-                f"{edit.smile.teacher} С. Кривошеев\n"
+                f"{edit.smile.teacher} С. Кривошеев | К. Смирнов\n"
                 f"{edit.smile.student} Владимир Котов\n\n"
                 f"{edit.smile.purpose} Дипломный проект SkillBox\n\n"
                 f"{edit.smile.link} Ссылки:\n"
                 f"TG: t.me/vlad_prin\n"
-                f"GitLab: https://gitlab.skillbox.ru/vladimir_kotov_1",
+                f"GitLab: https://gitlab.skillbox.ru/vladimir_kotov_1\n\n"
+                f"ver.: 1.1",
             ),
 
             "help": (
