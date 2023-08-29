@@ -1,5 +1,6 @@
 
-# TG-bot: [Space.io](https://t.me/space_io_bot) 
+# TG-bot: [Space.io](https://t.me/space_io_bot) ![https://t.me/space_io_bot](https://img.shields.io/badge/version-%201.1-%23757575.svg?&style=for-the-badge&logo=&logoColor=white)
+
 
 Bot on the theme of space, implemented on aiogram (3.x)
 ###### This's a graduation project in Skillbox
@@ -18,9 +19,6 @@ admin_id=
 
 # Telegram token log-bot
 logger_bot=
-
-# Token translate rapid-api
-rapid_api=
 ~~~
 ###### 2) Run "main.py"
 ___
@@ -70,3 +68,8 @@ ___
 ![markdown](https://img.shields.io/badge/markdown-%23545554.svg?&style=for-the-badge&logo=markdown&logoColor=white)
 ![telegram](https://img.shields.io/badge/Telegram%20-%23545554.svg?&style=for-the-badge&logo=Telegram&logoColor=white)
 ![telegram](https://custom-icon-badges.demolab.com/badge/-Skillbox-%23545554?style=for-the-badge&logoColor=white&logo=repo)
+___
+![loguru](https://img.shields.io/badge/change-%20log-%23757575.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
+- Update lib (pip)
+- Updating the number of tokens
+- Updating the file readme.md
