@@ -51,6 +51,7 @@ async def pages(call: CallbackQuery):
     """
 
     # В зависимости от полученного кэлбэка изменяем номер страницы (влияет на загрузку контента новостей)
+    data_wiki.page = 0
     param_page = "next" if call.data == "next_news" else "prev"
     res = await txt.private.news(param_page)
 
@@ -66,7 +67,7 @@ async def pages(call: CallbackQuery):
 
 
 @callback_router.callback_query(F.data.in_({"prev_wiki", "next_wiki"}))
-async def wiki_tab(call: CallbackQuery):
+async def wiki_tab(call: CallbackQuery, data_wiki=None):
     """
     Ловим ответ кнопок пользователя переключения окон Глоссария (1 окно <-> 2 окно <-> ... окно)
 
@@ -76,9 +77,15 @@ async def wiki_tab(call: CallbackQuery):
 
     # В зависимости от полученного кэлбэка изменяем номер страницы (влияет на загрузку кнопок терминов)
     if call.data == "prev_wiki":
-        data_wiki.page -= 1
+        if data_wiki.page - 1 == 0:
+            data_wiki.page = 0
+        else:
+            data_wiki.page -= 1
     else:
-        data_wiki.page += 1
+        if data_wiki.page + 1 == 3:
+            data_wiki.page = 3
+        else:
+            data_wiki.page += 1
 
     await bot.edit_message_caption(
         chat_id=call.message.chat.id,

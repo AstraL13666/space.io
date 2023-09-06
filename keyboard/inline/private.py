@@ -1,7 +1,7 @@
 from aiogram.utils.keyboard import InlineKeyboardBuilder, InlineKeyboardButton
 
 from utils.manager import txt
-from utils.misc import counter, wiki
+from utils.misc import counter, wiki, pos
 from utils.misc.data_classes import data_wiki
 
 
@@ -44,15 +44,15 @@ class Inline:
 
     def news_more(self, link):
         text_button = txt.button.user_but(func="more")
-        size = 3 if counter.news == 1 else 2
+        size = 3 if pos.news_pos == 1 else 2
 
-        if counter.news == 0:
+        if pos.news_pos == 0:
             button = [
                 InlineKeyboardButton(text=text_button, url=link),
                 InlineKeyboardButton(text=txt.button.right_arrow, callback_data="next_news")
             ]
 
-        elif counter.news == 1:
+        elif pos.news_pos == 1:
             button = [
                 InlineKeyboardButton(text=txt.button.left_arrow, callback_data="prev_news"),
                 InlineKeyboardButton(text=text_button, url=link),

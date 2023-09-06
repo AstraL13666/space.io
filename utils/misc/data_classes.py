@@ -27,7 +27,7 @@ class WikiMemory:
         page: int - номер страницы
         lens: int - кол-во страниц (генерация кнопок)
     """
-    page: int = 1
+    page: int = 0
     lens: int = None
 
 
@@ -51,7 +51,6 @@ class Counter:
 
     def __init__(self):
         self.__pos = Position()
-        self.news = Position.news_pos
 
     def db(self, stop: int):
 
@@ -64,6 +63,7 @@ class Counter:
         return self.__pos.db_pos
 
 
+pos = Position()
 counter = Counter()
 datanews = MemoryNews()
 data_wiki = WikiMemory()

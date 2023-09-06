@@ -1,5 +1,5 @@
 from .re_edit import edit
-from ..misc import counter, datanews
+from ..misc import counter, datanews, pos
 from ..settings import setting
 
 """Библиотека текста, выполнена в стиле ООП - для наилучшей навигации в коде"""
@@ -146,22 +146,28 @@ class Library:
         from keyboard import kbrd
 
         if param == "prev":
-            counter.news -= 1
+            if pos.news_pos - 1 == 0:
+                pos.news_pos = 0
+            else:
+                pos.news_pos -= 1
         else:
-            counter.news += 1
+            if pos.news_pos + 1 == 3:
+                pos.news_pos = 0
+            else:
+                pos.news_pos += 1
 
-        title = (f"{datanews.news_en[counter.news]['title']}", f"{datanews.news_ru[counter.news]['title']}")
-        desc = (f"{datanews.news_en[counter.news]['desc']}", f"{datanews.news_ru[counter.news]['desc']}")
-        date = (f"{datanews.news_en[counter.news]['date']}", f"{datanews.news_en[counter.news]['date']}")
+        title = (f"{datanews.news_en[pos.news_pos]['title']}", f"{datanews.news_ru[pos.news_pos]['title']}")
+        desc = (f"{datanews.news_en[pos.news_pos]['desc']}", f"{datanews.news_ru[pos.news_pos]['desc']}")
+        date = (f"{datanews.news_en[pos.news_pos]['date']}", f"{datanews.news_en[pos.news_pos]['date']}")
         view = (
-            f"{datanews.news_en[counter.news]['counts']['view']}",
-            f"{datanews.news_ru[counter.news]['counts']['view']}")
+            f"{datanews.news_en[pos.news_pos]['counts']['view']}",
+            f"{datanews.news_ru[pos.news_pos]['counts']['view']}")
 
-        comment = (f"{datanews.news_en[counter.news]['counts']['comment']}",
-                   f"{datanews.news_ru[counter.news]['counts']['comment']}")
+        comment = (f"{datanews.news_en[pos.news_pos]['counts']['comment']}",
+                   f"{datanews.news_ru[pos.news_pos]['counts']['comment']}")
 
-        link_url = datanews.news_en[counter.news]['link']
-        link_img = datanews.news_en[counter.news]['image']
+        link_url = datanews.news_en[pos.news_pos]['link']
+        link_img = datanews.news_en[pos.news_pos]['image']
 
         publish_smile = int(date[0].split(" ")[1].split(":")[0])
 
