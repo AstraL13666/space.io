@@ -3,8 +3,8 @@ class Error(Exception):
 
     def __init__(self, *args) -> None:
         self.data_error = {
-            100: 'Ошибка загрузки переменных окружения!',
-            101: 'Нарушена конфигурация настроек!'
+            100: 'DotEnvError: Ошибка загрузки файла!',
+            101: 'ConfigError: Нарушена конфигурация настроек!'
         }
 
         if args:
