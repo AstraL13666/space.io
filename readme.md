@@ -1,5 +1,5 @@
 
-# [Space.io](https://t.me/space_io_bot) ![title](https://img.shields.io/badge/version-%201.2-%23757575.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
+# [Space.io](https://t.me/space_io_bot) ![title](https://img.shields.io/badge/version-%201.2.1-%23757575.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
 ___
 ###### To test the bot, click on the name
 ___
@@ -106,13 +106,5 @@ ___
   - `multidict (6.0.4)` - lib for working with immutable dictionaries
   - `typing_extensions (4.7.1)` - lib that provides extended data types for the `typing` module 
 ___
-  ![update](https://img.shields.io/badge/update%20-1.2-%23000000.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
-- Update file:
-  - readme.md
-    - updated description
-  - re-create VirtualEnv
-  - pip re-install
-  - create .env.template
-- Code optimization
-- Other:
-  - Added a link for the bot test
+  ![update](https://img.shields.io/badge/update%20-1.2.1-%23000000.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
+- Fixed a news bug
