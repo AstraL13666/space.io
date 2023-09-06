@@ -4,7 +4,7 @@ from typing import List, Union
 
 from loguru import logger
 
-from config_data import admin
+from config_data import data
 from loader import logger_bot
 
 """Вывод логгера в консоль и отправка в отдельного бота логов, для отслеживания работы"""
@@ -38,7 +38,7 @@ async def notify(msg: str):
     :param msg: str
     :return: None
     """
-    await logger_bot.send_message(chat_id=admin, text=f'@space_io_bot | {msg}')
+    await logger_bot.send_message(chat_id=data["admin_id"], text=f'@space_io_bot | {msg}')
 
 
 def custom_notify(text: str) -> None:
