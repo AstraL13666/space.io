@@ -64,7 +64,7 @@ class Library:
                 f"{edit.smile.link} Link:\n"
                 f"TG: t.me/vlad_prin\n"
                 f"GitLab: https://gitlab.skillbox.ru/vladimir_kotov_1\n\n"
-                f"ver.: 1.1",
+                f"ver.: 1.3 (finally)",
                 f"{edit.smile.bot_name} space.io\n\n"
                 f"{edit.smile.teacher} С. Кривошеев | К. Смирнов\n"
                 f"{edit.smile.student} Владимир Котов\n\n"
@@ -72,7 +72,7 @@ class Library:
                 f"{edit.smile.link} Ссылки:\n"
                 f"TG: t.me/vlad_prin\n"
                 f"GitLab: https://gitlab.skillbox.ru/vladimir_kotov_1\n\n"
-                f"ver.: 1.1",
+                f"ver.: 1.3 (finally)",
             ),
 
             "help": (
