@@ -77,27 +77,27 @@
       "pic": "https://i.pinimg.com/originals/f5/fb/97/f5fb972544dd299357a6e1c1b3755066.jpg"
     },
     "Карликовая планета": {
-      "dist": "достаточно крупное небесно тело, которое вращается по орбите вокруг Солнца, имеет достаточную массу для того, чтобы поддерживать близкую к сферической форму под действием гравитации, не является спутником другой планеты, не может, в отличие от планет, расчистить район своей орбиты от других космических объектов",
+      "desc": "достаточно крупное небесно тело, которое вращается по орбите вокруг Солнца, имеет достаточную массу для того, чтобы поддерживать близкую к сферической форму под действием гравитации, не является спутником другой планеты, не может, в отличие от планет, расчистить район своей орбиты от других космических объектов",
       "pic": "https://ciur.ru/uva/uva_ddt/DocLib19/%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%B0%D0%B7%D0%B8%D0%B5%D0%B2%D0%B0%20%D0%9E%D0%92/%D0%90%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0/%D0%9A%D0%B0%D1%80%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8B/%D0%BA%D0%B0%D1%80%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8B.png"
     },
     "Класс спектральный": {
-      "dist": "характеристика спектра и поверхностной температуры звезды",
+      "desc": "характеристика спектра и поверхностной температуры звезды",
       "pic": "https://news4auto.ru/wp-content/uploads/2022/07/spektralnye-klassy-zvezd.webp"
     },
     "Комета": {
-      "dist": "тело малой плотности, состоящее из газа и пыли и обращающееся вокруг Солнца",
+      "desc": "тело малой плотности, состоящее из газа и пыли и обращающееся вокруг Солнца",
       "pic": "AgACAgIAAxkBAAIF3mTJi3VvCP20hA1vYJ6YNQg5BJXEAALRyzEbj4dQSo_ROeEX_7jWAQADAgADeQADLwQ"
     },
     "Конфигурация планет": {
-      "dist": "взаимные расположения планет и Солнца на небесной сфере земного наблюдателя",
+      "desc": "взаимные расположения планет и Солнца на небесной сфере земного наблюдателя",
       "pic": "https://prezentacii.org/upload/cloud/18/08/70394/images/screen5.jpg"
     },
     "Кориолиса сила": {
-      "dist": "одна из сил инерции, проявляющаяся во вращающейся системе отсчета, при движении в направлении под углом к оси вращения. То есть чем дальше объект от центра вращения, тем быстрее у него касательная скорость, и наоборот, чем ближе к центру – тем такая скорость ниже",
+      "desc": "одна из сил инерции, проявляющаяся во вращающейся системе отсчета, при движении в направлении под углом к оси вращения. То есть чем дальше объект от центра вращения, тем быстрее у него касательная скорость, и наоборот, чем ближе к центру – тем такая скорость ниже",
       "pic": "https://i2.wp.com/online.mephi.ru/courses/physics/osnovi_mehaniki/external/images/8/8.4/r2.png"
     },
     "Криолитозона": {
-      "dist": "то, что принято называть “вечной мерзлотой”, т.е. верхний слой планетной коры, характеризующийся отрицательной температурой пород и почв и наличием или возможностью существования подземных льдов.",
+      "desc": "то, что принято называть “вечной мерзлотой”, т.е. верхний слой планетной коры, характеризующийся отрицательной температурой пород и почв и наличием или возможностью существования подземных льдов.",
       "pic": "https://avatars.dzeninfra.ru/get-zen_doc/1348874/pub_60bdaee8931ee526e146a0d4_60bdb0ed931ee526e14a9f68/scale_1200"
     },
     "Лимб": {
@@ -179,7 +179,7 @@
   },
   "en": {
     "Azimuth": {
-      "desc": "the angular distance along the mathematical horizon from the point of the south (astronomical) or north (geodesic) to the vertical of the luminary",
+      "desc": "the angular descance along the mathematical horizon from the point of the south (astronomical) or north (geodesic) to the vertical of the luminary",
       "pic": "AgACAgIAAxkBAAIF1mTJiTuYxKpVwXU1WyTyL7UxNFTuAALByzEbj4dQStjg8tBz-JY_AQADAgADeQADLwQ"
     },
     "Albedo": {
@@ -187,7 +187,7 @@
       "pic": "AgACAgIAAxkBAAIF1GTJiITRvZ8z1k7xEX9sT0ovn7c4AAK3yzEbj4dQSl8YyC3vSI-qAQADAgADeQADLwQ"
     },
     "Apogee": {
-      "desc": "the point farthest from the Earth in the orbit of a body orbiting around it. The distance from the apogee to the center of the Earth is called the apogee distance",
+      "desc": "the point farthest from the Earth in the orbit of a body orbiting around it. The descance from the apogee to the center of the Earth is called the apogee descance",
       "pic": "AgACAgIAAxkBAAIF1WTJiOjrafLhn0SjfTTZWQEjOg4oAALAyzEbj4dQStyyZwKKmRvnAQADAgADeAADLwQ"
     },
     "Asteroid": {
@@ -203,7 +203,7 @@
       "pic": "AgACAgIAAxkBAAIF2WTJidS7dmo9BRT9UbWUxCURwZsNAALIyzEbj4dQSp00NortWphDAQADAgADeQADLwQ"
     },
     "Astronomical unit": {
-      "desc": "the average distance between the Earth and the Sun",
+      "desc": "the average descance between the Earth and the Sun",
       "pic": "AgACAgIAAxkBAAIF2mTJipDJYH9FO7UmOGkGsO02Dmw4AALLyzEbj4dQSho9x-XrTBnaAQADAgADeQADLwQ"
     },
     "Axis of the World": {
@@ -215,27 +215,27 @@
       "pic": "AgACAgIAAxkBAAIF3WTJixs9zqlc0NeDEGNmUlJKKqyaAALQyzEbj4dQSqIdK9xda3KfAQADAgADeQADLwQ"
     },
     "Comet": {
-      "dist": "a low-density body consisting of gas and dust and orbiting the Sun",
+      "desc": "a low-density body consisting of gas and dust and orbiting the Sun",
       "pic": "AgACAgIAAxkBAAIF3mTJi3VvCP20hA1vYJ6YNQg5BJXEAALRyzEbj4dQSo_ROeEX_7jWAQADAgADeQADLwQ"
     },
     "Configuration of planets": {
-      "dist": "mutual positions of the planets and the Sun on the celestial sphere of the terrestrial observer",
+      "desc": "mutual positions of the planets and the Sun on the celestial sphere of the terrestrial observer",
       "pic": "https://prezentacii.org/upload/cloud/18/08/70394/images/screen5.jpg"
     },
     "Coriolis force": {
-      "dist": "one of the forces of inertia, manifested in a rotating frame of reference, when moving in a direction at an angle to the axis of rotation.",
+      "desc": "one of the forces of inertia, manifested in a rotating frame of reference, when moving in a direction at an angle to the axis of rotation.",
       "pic": "https://i2.wp.com/online.mephi.ru/courses/physics/osnovi_mehaniki/external/images/8/8.4/r2.png"
     },
     "Cryolithozone": {
-      "dist": "what is commonly called “permafrost”, i.e. the upper layer of the planetary crust, characterized by a negative temperature of rocks and soils and the presence or possibility of the existence of underground ice.",
+      "desc": "what is commonly called “permafrost”, i.e. the upper layer of the planetary crust, characterized by a negative temperature of rocks and soils and the presence or possibility of the existence of underground ice.",
       "pic": "https://avatars.dzeninfra.ru/get-zen_doc/1348874/pub_60bdaee8931ee526e146a0d4_60bdb0ed931ee526e14a9f68/scale_1200"
     },
     "Dwarf planet": {
-      "dist": "a sufficiently large celestial body that orbits the Sun, has sufficient mass to maintain a close to spherical shape under the influence of gravity, is not a satellite of another planet, cannot, unlike planets, clear the area of its orbit from other space objects",
+      "desc": "a sufficiently large celestial body that orbits the Sun, has sufficient mass to maintain a close to spherical shape under the influence of gravity, is not a satellite of another planet, cannot, unlike planets, clear the area of its orbit from other space objects",
       "pic": "https://ciur.ru/uva/uva_ddt/DocLib19/%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%B0%D0%B7%D0%B8%D0%B5%D0%B2%D0%B0%20%D0%9E%D0%92/%D0%90%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D0%B0%D1%8F%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0/%D0%9A%D0%B0%D1%80%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8B/%D0%BA%D0%B0%D1%80%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8B.png"
     },
     "Elongation": {
-      "desc": "the angular distance of the planet from the Sun. There are eastern and western elongation",
+      "desc": "the angular descance of the planet from the Sun. There are eastern and western elongation",
       "pic": "https://neane.ru/rus/7/write/0324/elongation.jpg"
     },
     "Ephemeris": {
@@ -247,7 +247,7 @@
       "pic": "https://news.store.rambler.ru/img/b7c25b6543037ac0672d54dd50a4c340?img-format=auto&img-1-resize=height:710"
     },
     "Geoid": {
-      "desc": "the surface of the earth's gravity field, approximately coinciding with the average level of the waters of the World Ocean in an undisturbed state and conditionally continued under the continents",
+      "desc": "the surface of the earth's gravity field, approximately coinciding with the average level of the waters of the World Ocean in an undescurbed state and conditionally continued under the continents",
       "pic": "http://vsegda-pomnim.com/uploads/posts/2022-04/1651020360_49-vsegda-pomnim-com-p-zemlya-bez-okeanov-i-morei-foto-68.jpg"
     },
     "Large semi - axis": {
@@ -323,7 +323,7 @@
       "pic": "https://i.pinimg.com/originals/f5/fb/97/f5fb972544dd299357a6e1c1b3755066.jpg"
     },
     "Spectral class": {
-      "dist": "characterization of the spectrum and surface temperature of the star",
+      "desc": "characterization of the spectrum and surface temperature of the star",
       "pic": "https://news4auto.ru/wp-content/uploads/2022/07/spektralnye-klassy-zvezd.webp"
     },
     "Saros": {
