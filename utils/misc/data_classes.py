@@ -14,7 +14,7 @@ class Position:
         news_pos: int - номер страницы новостей, цель: переключение между новостями (1 <-> 2 <-> 3)
     """
 
-    db_pos: int = 1
+    db_pos: int = 0
     news_pos: int = 0
 
 
@@ -27,7 +27,7 @@ class WikiMemory:
         page: int - номер страницы
         lens: int - кол-во страниц (генерация кнопок)
     """
-    page: int = 0
+    page: int = 1
     lens: int = None
 
 
