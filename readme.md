@@ -1,5 +1,5 @@
 
-# [Space.io](https://t.me/space_io_bot) ![title](https://img.shields.io/badge/version-%201.3-%23757575.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
+# [Space.io](https://t.me/space_io_bot) ![title](https://img.shields.io/badge/version-%201.4-%23757575.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
 ___
 ###### To test the bot, click on the name
 ___
@@ -106,6 +106,5 @@ ___
   - `multidict (6.0.4)` - lib for working with immutable dictionaries
   - `typing_extensions (4.7.1)` - lib that provides extended data types for the `typing` module 
 ___
-  ![update](https://img.shields.io/badge/update%20-1.3-%23000000.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
-- Fixed a glossary bug
-- Fixed a JSON
+  ![update](https://img.shields.io/badge/update%20-1.4-%23000000.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white)
+- Added NASA api (APOD) - Once a day, you can use the api to get a picture from the NASA
