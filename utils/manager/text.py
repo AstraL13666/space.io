@@ -214,6 +214,14 @@ class Library:
     async def not_found(self):
         return f"{edit.smile.log_warning} Not found! | Не найдено!"
 
+    async def apod_text(self, data: dict = None):
+
+        text = f'{edit.smile.apod_title} {data["title"]}\n\n' \
+               f'{edit.smile.apod_date} {data["date"]}\n\n' \
+               f'{edit.reformat.style(preset="bu", string="Picture of the day from NASA")}'
+
+        return text
+
 
 class MultiLang:
     """
@@ -244,6 +252,7 @@ class TextButton:
             "more": ("More...", "Подробнее..."),
             "pic": ("Pic", "Картинки"),
             "news": ("News", "Новости"),
+            "apod": "APOD",
             "wiki": ("Glossary", "Глоссарий"),
             "setting": ("Setting", "Настройки"),
             "info": ("Info", "Инфо")
@@ -255,7 +264,7 @@ class TextButton:
     def __lang(self): return 0 if self.__setting.language == "en" else 1
 
     # Точка запроса текста кнопок
-    def user_but(self, func: str): return self.__data[func][self.__lang]
+    def user_but(self, func: str): return self.__data[func][self.__lang] if func != "apod" else self.__data["apod"]
 
 
 class Temp:
