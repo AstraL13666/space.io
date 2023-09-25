@@ -2,7 +2,7 @@ from asyncio import run
 
 from handler import private_router, callback_router
 from loader import dp, bot
-from middlewares import setup_logger, news_feed
+from middlewares import setup_logger, parser
 
 
 async def polling_bot() -> None:
@@ -16,7 +16,7 @@ async def polling_bot() -> None:
 
     try:
         # Загружаем новости в локал
-        await news_feed.parsing()
+        await parser.parsing()
 
         # пропускаем обновления
         await bot.delete_webhook(drop_pending_updates=True)
