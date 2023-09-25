@@ -14,4 +14,4 @@ else:  # иначе подгружаем значения
     load_dotenv(connect)
     t = getenv("token")
 
-    data = dict(token=getenv("token"), admin_id=getenv("admin_id"), log_bot=getenv("log_bot"))
+    data = dict(token=getenv("token"), admin_id=getenv("admin_id"), log_bot=getenv("log_bot"), nasa_api=getenv("nasa_api"))
