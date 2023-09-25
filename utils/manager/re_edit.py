@@ -1,4 +1,4 @@
-from emoji import emojize
+from emoji import emojize, demojize
 
 """Содержит формат редактирования текста и смайликов для бота"""
 
@@ -109,6 +109,11 @@ class Emo:
         self.bookmark_tab = emojize(":bookmark_tabs:")
         self.cross_mark = emojize(":cross_mark:")
         self.info = emojize(":information:")
+
+        # APOD
+        self.apod_title = emojize(':diamond_with_a_dot:')
+        self.apod_desc = emojize(':memo:')
+        self.apod_date = emojize(':calendar:')
 
     def clock(self, time: int) -> str:
         """
