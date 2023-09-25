@@ -1,14 +1,17 @@
+import pprint
+
 import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
+from config_data import data
 from utils import setting
 from utils.misc import datanews
 from .mw_logger import custom_notify
 from .mw_translater import translate
 
 
-class ParserNews:
+class Parser:
     """
     Парсинг новостей с сайта
 
@@ -21,8 +24,9 @@ class ParserNews:
 
     def __init__(self, value):
         self.__ua = UserAgent().random
-        self.__url = "https://www.astronews.ru/cgi-bin/mng.cgi?page=news&"
-        self.__url_img = "https://www.astronews.ru"
+        self.__url_pars_ = "https://www.astronews.ru/cgi-bin/mng.cgi?page=news&"
+        self.__url_pars__img = "https://www.astronews.ru"
+        self.__url_nasa = "https://api.nasa.gov/planetary/apod?api_key={Key}"
         self.__setting = value
 
     @property
@@ -41,17 +45,25 @@ class ParserNews:
         meta_tag = soup.find('meta', {'http-equiv': 'Content-Type'})
         return meta_tag['content'].split('=')[-1]
 
-    async def __response_query(self):
+    async def __response_query(self, filt: str = None):
         """
         Парсим страницу
 
         :return: str
         """
-        req = requests.get(f"{self.__url}str=1", headers={'User-Agent': self.__ua})
-        req.encoding = await self.__check_encoding(html=req.text)
-        return req.text
 
-    @classmethod
+        if filt == 'news':
+            get_url = f"{self.__url_pars_}str=1"
+        else:
+            get_url = self.__url_nasa.format(Key=data['nasa_api'])
+
+        req = requests.get(get_url, headers={'User-Agent': self.__ua})
+
+        if filt == 'news':
+            req.encoding = await self.__check_encoding(html=req.text)
+
+        return req.text if filt == 'news' else req
+
     async def __check_news(cls, page):
         """
         Проверяем актуальность страниц
@@ -84,7 +96,7 @@ class ParserNews:
         desc = page.find('p').text.strip().split()
         desc_src = f"{' '.join(desc[:len(desc) - 4])} ..."
 
-        link_src = f"{self.__url}{page.find('a')['href']}"
+        link_src = f"{self.__url_pars_}{page.find('a')['href']}"
         date_src = page.find('div', {'class': 'date'}).text.strip()
 
         counts = page.find('div', {'class': 'counts'})
@@ -94,7 +106,8 @@ class ParserNews:
         img_src = img['src']
 
         return dict(title=title_src, desc=desc_src, link=link_src, date=date_src,
-                    counts=dict(view=counts_src[0], comment=counts_src[1]), image=f"{self.__url_img}{img_src}")
+                    counts=dict(view=counts_src[0], comment=counts_src[1]),
+                    image=f"{self.__url_pars__img}{img_src}")
 
     async def parsing(self):
         """
@@ -102,7 +115,7 @@ class ParserNews:
 
         :return: bool
         """
-        res = await self.__response_query()
+        res = await self.__response_query(filt='news')
 
         soup = BeautifulSoup(res, 'html.parser')
         news_list = soup.find_all('div', {'class': 'news-page'})
@@ -125,5 +138,18 @@ class ParserNews:
         else:
             return False
 
+    async def api_get(self):
+        apod_get = await self.__response_query(filt='apod')
+        res = apod_get.json()
 
-news_feed = ParserNews(value=setting)
+        data = {
+            'date': res['date'],
+            'explanation': res['explanation'],
+            'pic': res['url'],
+            'title': res['title']
+        }
+
+        return data
+
+
+parser = Parser(value=setting)
