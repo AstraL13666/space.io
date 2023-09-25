@@ -4,9 +4,11 @@ from aiogram import Router, F
 from aiogram.filters import Command
 from aiogram.types import Message
 
+import handler.private.callback
 from data_base import *  # link_db - взаимодействие с базой данных
 from keyboard import kbrd
 from loader import bot
+from middlewares import parser
 from utils.manager import txt, image
 from utils.misc.data_classes import data_wiki
 from utils.misc.wiki_func import wiki
@@ -78,6 +80,27 @@ async def news(m: Message):
         caption=res["text"],
         parse_mode="HTML",
         reply_markup=res["keyboard"]
+    )
+
+
+@private_router.message(F.text == "APOD")
+async def news(m: Message):
+    """
+    Оправляет картинку дня используя api сайта НАСА, без описания...
+    Длинное описание выдает, остановился на таком варианте
+
+    :param m: aiogram.types.Message
+    :return: None
+    """
+
+    apod_get = await parser.api_get()
+    res_text = await txt.private.apod_text(data=apod_get)
+
+    await bot.send_photo(
+        chat_id=m.chat.id,
+        photo=apod_get['pic'],
+        caption=res_text,
+        parse_mode='HTML'
     )
 
 
