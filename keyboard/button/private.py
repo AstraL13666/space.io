@@ -16,7 +16,10 @@ class Button:
         kb = [
             [
                 KeyboardButton(text=txt.button.user_but(func="pic")),
-                KeyboardButton(text=txt.button.user_but(func="news")),
+                KeyboardButton(text=txt.button.user_but(func="news"))
+            ],
+            [
+                KeyboardButton(text=txt.button.user_but(func="apod")),
                 KeyboardButton(text=txt.button.user_but(func="wiki")),
             ],
             [
